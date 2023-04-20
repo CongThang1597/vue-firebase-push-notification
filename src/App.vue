@@ -28,7 +28,7 @@ onMessage(messaging, (payload) => {
 getToken(messaging, { vapidKey: 'BOJfkfcEOUJcehEEZgkiXc40Zth-08maT8__K29pVteMEnTQwZgayZRrz1MufpxebdKaxNywIVkD4JJIiiyWdHo' }).then((currentToken) => {
   if (currentToken) {
     // Send the token to your server and update the UI if necessary
-    console.log("Token is:", currentToken);
+    console.log("Token is: ", currentToken);
     // ...
   } else {
     // Show permission request UI
