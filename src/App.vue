@@ -4,13 +4,13 @@ import { initializeApp } from "firebase/app";
 import { getMessaging, getToken, onMessage } from "firebase/messaging";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyANrk50AHOyfUSPRS3cZlEls6Ko0uSmCEM",
-  authDomain: "igt-test-ffed7.firebaseapp.com",
-  projectId: "igt-test-ffed7",
-  storageBucket: "igt-test-ffed7.appspot.com",
-  messagingSenderId: "896668245237",
-  appId: "1:896668245237:web:436fa7199c91c5a490b9bc",
-  measurementId: "G-FWV4DL59DS"
+  apiKey: "AIzaSyDxfH26kOtLaSTGTgY-dTbFeoIO42NKf1Y",
+  authDomain: "vmo-igs-talent.firebaseapp.com",
+  projectId: "vmo-igs-talent",
+  storageBucket: "vmo-igs-talent.appspot.com",
+  messagingSenderId: "286314282745",
+  appId: "1:286314282745:web:8d9113e2acaad8918d6c28",
+  measurementId: "G-X9H5KF5KNN"
 };
 
 
@@ -25,7 +25,7 @@ onMessage(messaging, (payload) => {
   // ...
 });
 
-getToken(messaging, { vapidKey: 'BOJfkfcEOUJcehEEZgkiXc40Zth-08maT8__K29pVteMEnTQwZgayZRrz1MufpxebdKaxNywIVkD4JJIiiyWdHo' }).then((currentToken) => {
+getToken(messaging, { vapidKey: 'BEvCR4iHB1ZvNc_QQndjHLQI-FnOmWPGCUpCTaDx0ydjul82kv4A8VVOcfcTZe9ksO9GSoyUK0xHLxVmqUhTXUc' }).then((currentToken) => {
   if (currentToken) {
     // Send the token to your server and update the UI if necessary
     console.log("Token is: ", currentToken);

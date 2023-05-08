@@ -8,13 +8,13 @@ importScripts('https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js')
 // your app's Firebase config object.
 // https://firebase.google.com/docs/web/setup#config-object
 firebase.initializeApp({
-  apiKey: "AIzaSyANrk50AHOyfUSPRS3cZlEls6Ko0uSmCEM",
-  authDomain: "igt-test-ffed7.firebaseapp.com",
-  projectId: "igt-test-ffed7",
-  storageBucket: "igt-test-ffed7.appspot.com",
-  messagingSenderId: "896668245237",
-  appId: "1:896668245237:web:436fa7199c91c5a490b9bc",
-  measurementId: "G-FWV4DL59DS"
+  apiKey: "AIzaSyDxfH26kOtLaSTGTgY-dTbFeoIO42NKf1Y",
+  authDomain: "vmo-igs-talent.firebaseapp.com",
+  projectId: "vmo-igs-talent",
+  storageBucket: "vmo-igs-talent.appspot.com",
+  messagingSenderId: "286314282745",
+  appId: "1:286314282745:web:8d9113e2acaad8918d6c28",
+  measurementId: "G-X9H5KF5KNN"
 });
 
 // Retrieve an instance of Firebase Messaging so that it can handle background
